@@ -1,5 +1,10 @@
 FROM alpine:3.6
 RUN apk -v --update add \
+        git \
+        ssh \
+        tar \
+        gzip \
+        ca-certificates \
         python \
         py-pip \
         groff \
