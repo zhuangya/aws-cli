@@ -5,6 +5,7 @@ RUN apk -v --update add \
         tar \
         gzip \
         ca-certificates \
+        curl \
         python \
         py-pip \
         groff \
