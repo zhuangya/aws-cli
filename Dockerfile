@@ -1,7 +1,7 @@
 FROM alpine:3.6
 RUN apk -v --update add \
         git \
-        ssh \
+        openssh \
         tar \
         gzip \
         ca-certificates \
